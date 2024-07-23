@@ -15,8 +15,8 @@ button.addEventListener('click',function(event){
 
 async function weather_update(city_name){
     const country = `india/${city_name}`;
-    const api_key = '65dcc49227ec442487255210241102';
-    const myapi = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${country}&aqi=no`)
+    const api_key = '';
+    const myapi = await fetch(``)
     const my_data = await myapi.json()
     const new_arry = [];
     const forecast_data_store = [];
